@@ -339,7 +339,7 @@ surveys %>%
   relocate(date, .after = year)
 ```
 
-<!-- This isn't strictly necessary to show, but I think it's good to reenforce what a pipe is really doing, and it's actually a useful approach with more complex mutates -->
+<!-- This isn't strictly necessary to show, but I think it's good to reinforce what a pipe is really doing, and it's actually a useful approach with more complex mutates -->
 
 Now we can see that our `date` column has the type `date` as well. In this example, we created our column with two separate lines in `mutate()`, but we can combine them into one:
 
